@@ -1,6 +1,6 @@
 ## Placental gene co-expression networks and mediation analysis identifies pathways and genes associated with birthweight
 
-This repository contains the code from the manuscript in review named *Placental gene co-expression networks and mediation analysis identifies pathways and genes associated with birthweight*, in which several placental gene co-expression networks have been calculated to elucidate how placental transcriptome may be shaping birthweight. 
+This repository contains the code from the manuscript in review named *Placental gene co-expression networks and mediation analysis identifies pathways and genes associated with birthweight*, in which several placental gene co-expression networks have been calculated to elucidate how placental transcriptome might be shaping birthweight. 
 The code consists on:
 - Preprocess of the gene counts, including filtering of genes and samples, as well as batch effect correction and normalization - [preprocess_gene_counts.R](https://github.com/ariadnacilleros/Placental_GCN_RICHS_NHBCS_BW/blob/main/preprocess_gene_counts.R)
 - Deconvolution of placental cell types using the reference-based method from MuSiC R package - [run_deconvolution.R](https://github.com/ariadnacilleros/Placental_GCN_RICHS_NHBCS_BW/blob/main/run_deconvolution.R)
